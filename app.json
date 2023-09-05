@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "jobnative",
+    "slug": "jobnative",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "67e3a279-ba89-45e4-8674-b0665cc41bfc"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/67e3a279-ba89-45e4-8674-b0665cc41bfc"
+    },
+    "android": {
+      "package": "com.fabi_peter.jobnative"
+    },
+    "ios": {
+      "bundleIdentifier": "fabipeter-jobnative"
+    }
+  }
+}
